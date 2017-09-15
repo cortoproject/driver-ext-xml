@@ -1,0 +1,10 @@
+{
+  "id" : "driver/ext/xml",
+  "type" : "package",
+  "value" : {
+    "description" : "XML file extension",
+    "version" : "1.0.0",
+    "dependencies" : ["driver/fmt/xml"],
+    "noapi": true
+  }
+}
