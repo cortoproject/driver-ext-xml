@@ -1,10 +1,10 @@
 {
-  "id" : "driver/ext/xml",
-  "type" : "package",
-  "value" : {
-    "description" : "XML file extension",
-    "version" : "1.0.0",
-    "dependencies" : ["driver/fmt/xml"],
-    "noapi": true
-  }
+    "id": "driver/ext/xml",
+    "type": "package",
+    "value": {
+        "author": "Sander Mertens",
+        "description": "XML file extension",
+        "managed": false,
+        "use": ["corto", "driver/fmt/xml"]
+    }
 }
