@@ -8,7 +8,6 @@
 #define DRIVER_EXT_XML_H
 
 #include <corto/corto.h>
-#include <driver/ext/xml/_project.h>
 #include <driver/fmt/xml/xml.h>
 
 /* $header() */
@@ -20,4 +19,3 @@
 /* $end */
 
 #endif
-
