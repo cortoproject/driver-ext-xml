@@ -6,7 +6,7 @@
  * when the file is regenerated.
  */
 
-#include <driver/ext/xml/xml.h>
+#include <driver.ext.xml>
 
 /* $header() */
 static int xml_loadFile(corto_string file, int argc, char* argv[], void* ctx) {
@@ -17,7 +17,7 @@ static int xml_loadFile(corto_string file, int argc, char* argv[], void* ctx) {
 int cortomain(int argc, char *argv[]) {
 /* $begin(main) */
 
-    corto_load_register("xml", xml_loadFile, NULL);
+    ut_load_register("xml", xml_loadFile, NULL);
 
     return 0;
 /* $end */
