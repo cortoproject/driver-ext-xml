@@ -1,10 +1,9 @@
 {
-    "id": "driver/ext/xml",
+    "id": "driver.ext.xml",
     "type": "package",
     "value": {
         "author": "Sander Mertens",
         "description": "XML file extension",
-        "managed": false,
-        "use": ["corto", "driver/fmt/xml"]
+        "use": ["corto", "driver.fmt.xml"]
     }
 }

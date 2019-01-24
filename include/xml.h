@@ -7,15 +7,6 @@
 #ifndef DRIVER_EXT_XML_H
 #define DRIVER_EXT_XML_H
 
-#include <corto/corto.h>
-#include <driver/fmt/xml/xml.h>
-
-/* $header() */
-/* Enter additional code here. */
-/* $end */
-
-/* $body() */
-/* Enter code that requires types here */
-/* $end */
+#include "bake_config.h"
 
 #endif
